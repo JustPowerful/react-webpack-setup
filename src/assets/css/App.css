@@ -1,0 +1,20 @@
+body {
+  font-family: sans-serif;
+}
+
+.userContainer {
+  background-color: black;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+}
+
+.columnContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
